@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div id="bloco_1">
+        <div id="titulo">
+            <h1 id="oi"> Oi, amor </h1>
+        </div>
+        <div id="texto">
+            <pre>
+antes de tudo, feliz aniversário! eu te amo demais e espero viver muito mais tempo com você
+para preparar mais surpresas como essas em dias especiais para você e/ou para mim. i <3 u! 
+então, eu pensei em te dar um presente de aniversário, pensei, inicialmente, em te comprar 
+algo, mas qual seria a graça? portanto, eu decidi te dar algo feito por mim, algo muito    
+especial.                                                                                  
+
+olha só mulher, eu vou te ser sincero, não vá lá pensando ser aquelas coisas épicas até    
+porque eu não sou nenhum expert nisso, mas fiz com todo o amor que eu tenho por você, pode 
+acreditar. porém, você, para ter acesso ao presente, precisa passar por esse "enigma" que  
+fiz. até porque, qual seria a graça de simplesmente te entregar o presente? ah, aliás, pode
+ficar com o pendrive, comprei ele pra te dar de presente também <3.                        
+
+quero te dizer algumas coisas sobre esse projeto antes de começarmos. eu tive a ideia de   
+fazer isso naquele dia que a gente ficou na biblioteca lendo as categorias de livros que   
+tinham "alfa" ao invés da letra "a". por algum motivo, nesse dia eu não conseguia parar de 
+pensar em você quando à noite. acabei aproveitando isso para pensar em alguma surpresa para
+você. então eu sentei no computador e passei a madrugada programando e escrevendo algumas  
+coisas. porém, a fonte do meu computador acabou queimando, e por isso eu fiquei tão puto/  
+frustado/decepcionado. eu já havia desenvolvido algo mas tive que começar tudo de novo.    
+quero que saiba que você é muito especial para mim, eu nunca cheguei perto de fazer algo   
+tão bem elaborado assim para alguém. você me mudou para melhor, isa, e espero que eu tenha 
+feito o mesmo com você. esse era o motivo de eu não te falar o que eu estava programando.  
+desculpa, mas tinha que ser feito kkkkkkkkkkkkk, eu queria muito te fazer essa surpresa.   
+
+enfim, acho que isso é tudo que eu queria te dizer. para receber instruções sobre como     
+avançar no enigma, clique no botão ao lado que tem a sua carinha (muito fofa por sinal).   
+ele contém todas as instruções que você precisa para enviar as respostas e etc...          
+boa sorte, meu amor!! (obs.: essa já é a primeira fase)                                    
+</pre>
+        </div>
+    </div>
+    <div id="bloco_resposta">
+        <input id="resposta" type='text' value="Digite sua resposta." onfocus="ficar_branco()"
+            onfocusout="ficar_branco()">
+        <input id="enviar" type="button" value="Enviar resposta." onclick="enviar()">
+        <script>
+            function ficar_branco() {
+                if (resposta.value == "Digite sua resposta.") {
+                    resposta.value = "";
+                } else if (resposta.value == "") {
+                    resposta.value = "Digite sua resposta.";
+                }
+            }
+
+            function enviar() {
+                if (resposta.value == "icaro eu te amo") {
+                    alert("Muito bem, amor, eu também te amo. HEHEHE");
+                } else if (resposta.value == "Digite sua resposta." || resposta.value == "") {
+                    alert("Digita a responsa, sonsa.");
+                } else {
+                    alert("Resposta incorreta. Ai ai em...");
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>

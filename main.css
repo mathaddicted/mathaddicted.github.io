@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+
+}
+
+#bloco_1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#oi {
+    color: whitesmoke;
+
+}
+
+#texto {
+    color: whitesmoke;
+}
+
+#bloco_resposta {
+    text-align: center;
+}
+
+#resposta {
+    text-align: center;
+    padding: 5px;
+}
+
+#enviar {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+}
+
+#enviar:hover {
+    background-color: rgb(214, 214, 214);
+}
