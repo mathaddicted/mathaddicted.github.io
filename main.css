@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	background-color:whitesmoke;
+}
+#barra_topo{
+	height:10%;
+	padding:10px;
+	background-color:rgb(46, 204, 113);
+	overflow:hidden;
+}
+#barra_topo ul{
+	float:right;
+	position:relative;
+}
+#barra_topo ul li{
+	color:white;
+	display: inLine;
+	padding:10px;
+}
+#barra_topo ul li:hover{
+	color:black;
+}
+#barra_topo img{
+	position:relative;
+	float:left;
+}
+#corpo{
+	margin-left:10px;
+}
