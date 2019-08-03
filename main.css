@@ -3,30 +3,31 @@ body{
 	background-color:gray;
 }
 .bnt{
-	position:absolute;
-	box-sizing: border-box;
-	width:100%;
 	height: 80px;
-	background-color:rgb(0, 230, 64);
+	background: rgb(2,0,36);
+background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(19,121,9,1) 0%, rgba(6,161,0,1) 100%);
 }
 .bnt h1{
 	font-family: 'Baloo Chettan', cursive;
 	font-size:48px;
-	text-shadow: 1px 1px black;
+	
 	color:white;
 	position:absolute;
 	top:-30px;
 	left:30px;
 }
 .bnt ul{
-	position:absolute;
-	left:75%;
+	position:relative;
+	float:right;
+	text-align: center;
 	top:35px;
 }
-.bnt li{
+.bnt ul li{
+	text-align:center;
 	font-family: 'Acme', sans-serif;
 	display:inline;
-	padding:8px;
+	padding:100px;
+	padding-bottom:8px;
 	color:white;
 	border-bottom:1px solid white;
 }
@@ -43,4 +44,82 @@ body{
 }
 .bnt a:active{
 	color:white;
+}
+.lhb{
+	float:left;
+	width:35%;
+	position:relative;
+	box-sizing: border-box;
+	margin:0px;
+	height:400px;
+	background-image:
+	background: rgb(0,103,87);
+	background: linear-gradient(225deg, rgba(0,103,87,1) 0%, rgba(0,180,69,1) 100%);
+}
+.rhb{
+	position:relative;
+	float:right;
+	box-sizing: border-box;
+	margin:0px;
+	width:65%;
+	height:400px;
+	background: rgb(0,230,64);
+	background: linear-gradient(315deg, rgba(0,230,64,1) 0%, rgba(46,49,49,1) 100%);
+}
+.rhb h1{
+	text-shadow:1px 1px black;
+	font-family: 'Acme', sans-serif;
+	color:whitesmoke;
+	font-size:40px;
+	margin:25px;
+}
+.rhb p{
+	font-family:'Bree serif', sans-serif;
+	margin:20px;
+	color:whitesmoke;
+	text-align:justify;
+}
+
+.lhb hr{
+	box-shadow: 1px 1px black;
+	position: relative;
+	left:25%;
+	border:0.5px solid whitesmoke;
+	width:50%;
+	margin:0px;
+	padding:0px;
+}
+.lhb h1{
+	text-shadow:1px 1px black;
+	color:whitesmoke;
+	font-size:36px;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.lhb ul{
+	list-style:none;
+	text-align:center;
+}
+.lhb ul li{
+	text-shadow:1px 1px black;
+	color:whitesmoke;
+	font-family: 'Bree Serif', serif;
+	font-style:bold;
+	font-size:20px;
+	margin:25px;
+}
+.bhb {
+	min-width:500px; 
+	margin:0px;
+	background: rgb(0,0,29);
+	background-image:url(https://htmlcssvqs.com/8ed/examples/chapter-05/stars.png);
+	background-position:center 110%;
+	background-repeat: repeat-x;
+	background-size:25%;
+	padding:0px;
+	border:0px solid black;
+
+	height:1200px;
 }
